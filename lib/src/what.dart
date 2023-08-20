@@ -1,3 +1,7 @@
+
+/// if whatAnyTrue([...]) {
+///   ...
+/// }
 bool whatAnyTrue(List elements) => elements.any((e) => e == true);
 
 bool whatAnyFalse(List elements) => elements.any((e) => e == false);

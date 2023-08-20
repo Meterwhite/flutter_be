@@ -17,7 +17,3 @@ if(obj != null) {
 obj?.beAddToList(list);
 ```
 👍
-
----
-
-- Accept any submission.

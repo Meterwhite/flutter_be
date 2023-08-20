@@ -1,7 +1,6 @@
 extension BeForLoop on int {
-  /// 与等效for循环，收集每个返回值在数组中
+  /// For loop.
   /// final photos = count?.beTimes<Photo>(repeat: (i)=> tryGetPhoto(i));
-  /// 即使没有执行循环依然可以安全得道一个空的数组
   List<T> beTimes<T>({
     required T? Function(int i) repeat,
     asc = true,
