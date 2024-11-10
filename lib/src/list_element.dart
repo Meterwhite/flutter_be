@@ -1,5 +1,5 @@
 extension BeListElement on dynamic {
-  /// 返回true意味着[List.add]方法被調用，[isTry] 是true时不会抛出异常。
+  /// Returns true if the [List.add] method is called; if [isTry] is true, no exception will be thrown.
   bool beAddToList<T>(List<T>? list, {bool isTry = false}) {
     if (this is! T) {
       if (isTry) {

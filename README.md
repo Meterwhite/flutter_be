@@ -20,4 +20,4 @@ obj?.beAddToList(list);
 
 ---
 
-- Accept any submission.
+- There are more than 20 methods in the source code.
